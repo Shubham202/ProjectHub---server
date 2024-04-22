@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PDF to Text Converter</title>
+	</head>
+	<body>
+		<h1>PDF to Text Converter</h1>
+		<form action="/upload" method="post" enctype="multipart/form-data">
+			<input type="file" name="file" accept=".pdf" required />
+			<input type="submit" value="Upload" />
+		</form>
+		<br />
+		<h1>Signup</h1>
+		<form action="/signup" method="post">
+			<input type="text" name="username" required />
+			<input type="password" name="password" required />
+			<input type="submit" value="signup" />
+		</form>
+		<h1>Login</h1>
+		<form action="/login" method="post" enctype="application/json">
+			<input type="text" name="username" required />
+			<input type="password" name="password" required />
+			<input type="submit" value="login" />
+		</form>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+flask
+python-dotenv
+Flask-SQLAlchemy
+bcrypt
+Flask-Migrate
+PyPDF2
+flask-cors
+nltk
+pyjwt
+scikit-learn
